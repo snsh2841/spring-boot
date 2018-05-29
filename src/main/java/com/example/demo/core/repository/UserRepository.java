@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.example.demo.core.repository;
 
-import com.example.demo.domain.User;
+import com.example.demo.core.domain.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
