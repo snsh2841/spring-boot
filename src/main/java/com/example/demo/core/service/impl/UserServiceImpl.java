@@ -19,4 +19,10 @@ public class UserServiceImpl implements UserService{
 
         return (List)userRepository.findAll();
     }
+
+    @Override
+    public User findByUsrLoginId(String usrLoginId) {
+
+        return userRepository.findByUsrLoginId(usrLoginId);
+    }
 }
